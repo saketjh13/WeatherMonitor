@@ -23,7 +23,7 @@ The application shows the weather information of Mumbai city as default landing 
 2. Search bar
   ![image](https://github.com/saketjh13/WeatherMonitor/assets/143515837/8bde2593-2e8c-45b3-bd23-d3416243161d)
 
-3. Landing page after Search bar
+3. After clicking on search
    ![image](https://github.com/saketjh13/WeatherMonitor/assets/143515837/38c3078b-7ad6-4352-bf33-2647cc1f30e1)
 
 
