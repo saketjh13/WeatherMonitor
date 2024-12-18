@@ -8,18 +8,18 @@ function Forecast(weatherData) {
     return (
         <div>
             <div>
-                <div className="flex items-center justify-start mt-6 mx-5">
+                <div className="flex items-center justify-start mt-3 mx-5">
                     <p className="text-white font-medium uppercase">Forecast</p>
                 </div>
-                <hr className="my-2" />
+                <hr className="my-1" />
 
-                <div className="flex flex-wrap items-center justify-between text-white">
+                <div className="flex flex-wrap items-center justify-between text-white overflow-auto">
                     
                     
                     {data.map((item, index) => (
                         <div
                             key={index}
-                            className="flex flex-col items-center justify-center m-5"
+                            className="flex flex-col items-center justify-center m-3"
                         >
                             <p className="font-light text-sm">{item[0]}</p>
                             <p className="font-light text-sm">{item[1]}</p>

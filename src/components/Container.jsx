@@ -9,7 +9,7 @@ import Forecast from './Forecast';
 function Container() {
   const [query, setQuery] = useState("Mumbai");
   const [data, setData] = useState('');
-  const [icon, setIcon] = useState('50d');
+  const [icon, setIcon] = useState('');
   const [forecastData, setForecastData] = useState('');
 
   
