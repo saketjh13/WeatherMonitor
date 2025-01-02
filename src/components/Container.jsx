@@ -28,7 +28,7 @@ function Container() {
   }, [query, Search])
   // console.log(icon);
   return (
-    <div className='rounded-lg bg-gradient-to-r from-cyan-400 to-blue-400 w-full h-full'>
+    <div className='rounded-lg bg-gradient-to-r from-cyan-400 to-blue-400 w-full h-full overflow-scroll no-scrollbar'>
       <div className=''>
         <Search setQuery={setQuery} query={query} />
         <CurrentTemp setData={data} setIcon={icon} />
